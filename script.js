@@ -29,6 +29,66 @@ var apple = 68;
 var apple =90
 
  console.log(apple)
-
     // document.write("hello, external")  
     // document.write(apple)  
+// var name = "Balu"
+// var name = "Babu"
+
+
+// let age = 23;
+// age = 22
+// const country = 'India';
+// const state = " Tamilnadu"
+
+
+// data type
+
+let name = "Balu";
+let age = 23;
+let isStudent = true;
+let isPassed = false;
+
+// undefined
+let city;
+console.log("city:",city);
+// let state = undefined
+// console.log("state:",state);
+
+let state = null
+console.log("state:",state);
+
+let typeOfState = typeof(state)
+console.log(typeOfState);
+
+// immutable  -- no editing
+// let fruit = "Aple";
+// fruit[2]= "p"  X
+
+ let fruit = "Apple";
+fruit = fruit + " good"
+console.log("fruit:",fruit);
+// console.log(fruit[0])
+// Array
+
+let colors = ["red", "green", 'blue']
+// index-  0,1, 2,3
+    
+console.log(colors[0])
+console.log(colors[1])
+console.log(colors)
+
+colors[0]= 'yellow'
+console.log(colors)
+
+// object
+
+let students ={
+    name : "Riyas",
+    age  : 23,
+    city : "vadachennai"
+
+}
+console.log(students.age)
+students.age = 25
+console.log(students.age)
+
