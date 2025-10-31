@@ -45,3 +45,65 @@ let students ={
     city : "vadachennai"
 
 }
+
+operators
+
+1. Arithmetic operators
+
++ --> addition
+- ---> subtraction
+* ---> multiplication
+/ ---> devision
+% ---> modulus 5%2  
+**  ---> Exponentiation 
+
+2. comparison operators
+
+   ==  --> equal(loose )
+   === -->  equal(strict )
+   !=  --->not equal
+   !== ---> stric not equal
+   > --> greater than
+   < --> less than 
+   >= -- >greater than or equal to
+   <= -- >less than than or equal to
+
+   3. Logical operators
+
+   && --> admin--> username and password 
+            username === "admin" && password === "1234"
+
+    || -->    username === "admin" || password === "1234"      
+
+    !  --> !true
+&&
+    T+T --> T 
+    T + F --> F 
+    F + T --> F 
+     F+F --> F  
+||
+    T+T --> T 
+    T + F --> T 
+    F + T --> T 
+     F+F --> F  
+
+     !
+
+    T+T --> F
+    T + F --> T 
+    F + T --> T
+     F+F --> T  
+
+
+     4. Assignment operator
+
+     = --> a=5
+     += -->  a=a+2    a+=2
+     -= ---> a=a-2    a-=2
+     *= ---> a=a*2    a*=2
+     /= ---> a=a/2    a/=2
+
+
+let a=10;
+a ||= 0    //  a remains 30 because it's truthy
+a= a || 0 

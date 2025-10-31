@@ -92,3 +92,35 @@ console.log(students.age)
 students.age = 25
 console.log(students.age)
 
+// Arithmetic operators
+
+// + --> addition
+
+let num1 = 20;
+let num2 = 40;
+let sum  = num1+num2
+// document.write(sum)
+console.log(sum)
+// - ---> subtraction
+let sub  = num2-num1
+console.log(sub)
+// * ---> multiplication
+let result = num1* num2
+console.log(result)
+// / ---> devision
+let divResult =num2/num1
+console.log(divResult)
+// % ---> modulus 5%2  
+let modulus = num2% num1
+console.log(modulus)
+// **  ---> Exponentiation 
+let a =2
+let b = 3
+let expo = a**b
+console.log(expo)
+
+
+
+let c= null;
+c= 10 || 9
+console.log("c", c)
