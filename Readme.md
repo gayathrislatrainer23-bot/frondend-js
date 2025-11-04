@@ -5,11 +5,11 @@ internal and external file
 string: set of char written inside the quotes("", '')
 
 variable: store data
-type/declaration
+type/declaration-- creating a value
 var: can redeclare and reassign
 let : not allowed to redelaration but can reassign
 const: not allowed to redelaration and reassign
-
+initialization- assign a value
 day-2
 30/10/2025
 
@@ -45,6 +45,9 @@ let students ={
     city : "vadachennai"
 
 }
+day-3
+31/10/2025
+
 
 operators
 
@@ -107,3 +110,121 @@ operators
 let a=10;
 a ||= 0    //  a remains 30 because it's truthy
 a= a || 0 
+
+
+day-4
+3/11/2025
+
+1. if(condition){
+    <!--   -->
+}
+
+2.   if(condition){
+    <!--  condition: true -->
+}else{
+ <!--  condition: false -->
+}
+<!-- else if ladder -->
+
+3. if(condition1){
+    <!--  condition1: true -->   
+}else if(condition2){
+    <!--  condition2: true -->   
+}elae if(condition3){
+        <!--  condition3: true -->   
+}else{
+    <!--  condition all : false --> 
+}
+
+4. nested condition
+
+ if(condition1){
+ if(condition2){
+    <!--   condition1 && condition2: true -->     
+}
+}
+
+<!-- ternary operator -->
+
+condition ? true : false
+
+task :  print the number is even or odd.
+
+day-5
+4/11/2025
+1.  switch
+2. loop
+let number 
+swich (number){
+    case value1:
+    console.log(" ")
+    break;
+    case value2:
+    console.log(")
+    case value1:
+    console.log(")
+}
+task in class 1.: trafic light : light= ??
+               light= "red" stop
+               light= "green" go
+               light= "yellow" get ready
+               light= ""        invalid signal
+
+
+2.  fruit = apple
+            orenge
+
+3. variable decleare but not assigned implicitly it become undefined
+
+loop
+for(initialization; condition; increment){
+
+}
+for(let i = 0; i<4;i++){
+    console.log(i)
+}
+<!-- first itration -->
+i=0
+print 0
+check condition 0<4 ===> true
+i++ --> i=0+1=1
+<!-- 2nd itration -->
+
+print 1
+i=1
+check condition 1<4 ===>true
+i++ --> i=1+1=2
+<!-- 3rd itration -->
+
+print 2
+i=2
+check condition 2<4 ===>true
+i++ --> i=2+1=3
+<!-- 4rd itration -->
+
+print 3
+i=3
+check condition 3<4 ===>true
+i++ --> i=3+1=4
+<!-- 5rd itration -->
+
+print 4
+i=4
+check condition 4<4 ===>false
+
+out
+
+a++ - post-increment
+++a - pre-increment
+
+a= 5
+b= a++
+a =6
+b= 5
+
+c= 8
+d= ++c
+c= 9
+d=9
+
+class- task: print even number 1 to 15
