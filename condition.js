@@ -53,6 +53,7 @@ console.log("this number is even number")
 }else{
    console.log("this number is even number") 
 }
+console.log(`${num} number is even number`)
 
 // 2. task
 
@@ -93,7 +94,31 @@ dayName = "Saturday"
 
 console.log(dayName)
 console.log(typeof(dayName))
+// for loop
+// for(let i = 0; i<4;i++){
+//     console.log(i)
+// }
 
-for(let i = 0; i<4;i++){
-    console.log(i)
+// for (let i = 1; i <= 15; i += 2) {
+//   console.log(i);
+// }
+
+let i = 12
+while(i>1){
+console.log(i)
+    i--;
 }
+// for(let i = 12; i>1;i--){
+//     console.log(i)
+// }
+
+ let bigNum = "123456"
+//  lengthof  bigNum =  bigNum.length
+ //find the digit of this number
+
+let count = 0;
+for(let i=1; i<=bigNum.length; i++){
+count++;
+}
+console.log("count",count)
+

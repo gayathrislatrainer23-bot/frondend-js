@@ -177,6 +177,7 @@ task in class 1.: trafic light : light= ??
 3. variable decleare but not assigned implicitly it become undefined
 
 loop
+// for loop
 for(initialization; condition; increment){
 
 }
@@ -228,3 +229,27 @@ c= 9
 d=9
 
 class- task: print even number 1 to 15
+
+day-6
+5/11/2025
+
+<!-- while loop -->
+while(condition){
+code
+}
+
+let i = 1
+while(i<2){
+console.log(i)
+    i++;
+}
+
+ let bigNum = 123456
+ //find the digit of this number
+
+ block scoped- {} let, const
+ function scoped /Global
+ global scope - var
+
+ <!-- sum of first 5 number -->
+ 
