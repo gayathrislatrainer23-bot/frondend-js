@@ -253,3 +253,86 @@ console.log(i)
 
  <!-- sum of first 5 number -->
  
+ day-7
+6/11/2025
+
+do.. while loop
+
+do{
+    <!-- code -->
+}while(condition)
+
+4. for of loop
+
+Array = [1,23,32]
+
+for (let elemet of Array){
+    console.log(element)
+}
+
+for in loop
+for (let index of Array){
+       console.log(index)
+       console.log(Array[index]) 
+       break;
+        console.log(index)
+continue;
+}
+
+break;
+continue;
+
+Function
+A function is a block of code designed to perform a specific task. 
+
+function Greetings(){
+    console.log("haii)
+}
+function --> keyword
+Greatings --> Name of function
+() --> invoking the fun
+
+  function Greetings(num1){
+
+    console.log("haii")
+           do{
+ console.log("num1",num1)
+ num1++;
+
+}while(num1<20)
+
+}
+let ten =15
+
+// Greetings(0)
+// Greetings(1)
+Greetings(ten)
+
+// function checking(num){
+
+// }
+function features(student){
+    console.log(`${student} should be good look`)
+    // template literal (back notation)
+}
+let student1= "Riyas"
+let student2 = "sanjai"
+features(student1)
+features(student2)
+
+task:
+function checkEvenOrOdd(num){
+
+}
+Odd(argument1, argument2)
+
+function features(student){
+       console.log(`${student} should be good look`)
+
+    return  (`${student} should be good look`)
+
+
+}
+
+function -- function declaration
+function Expretion -- function assigned

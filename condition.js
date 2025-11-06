@@ -63,37 +63,37 @@ console.log(`${num} number is even number`)
 // 4. senior citizen
 
 // switch
-let day = 5
-let dayName = null
-console.log(dayName)
-switch(day){
-  case 1:
-dayName = "Monday"
- break;
-    case 2:
-   dayName = "Tuesday"
-    break;
-  case 3:
-dayName = "Wednesday"
-     break;
-    case 4:
-dayName = "Thursday"
- break;
-  case 5:
-   dayName = "Friday"
-    break;
-    case 6:
-dayName = "Saturday"
- break;
-    case 7:
-     dayName = "Sunday"
-      break;
-      default:
-        console.log(" you entered wrong")
-}
+// let day = 5
+// let dayName = null
+// console.log(dayName)
+// switch(day){
+//   case 1:
+// dayName = "Monday"
+//  break;
+//     case 2:
+//    dayName = "Tuesday"
+//     break;
+//   case 3:
+// dayName = "Wednesday"
+//      break;
+//     case 4:
+// dayName = "Thursday"
+//  break;
+//   case 5:
+//    dayName = "Friday"
+//     break;
+//     case 6:
+// dayName = "Saturday"
+//  break;
+//     case 7:
+//      dayName = "Sunday"
+//       break;
+//       default:
+//         console.log(" you entered wrong")
+// }
 
-console.log(dayName)
-console.log(typeof(dayName))
+// console.log(dayName)
+// console.log(typeof(dayName))
 // for loop
 // for(let i = 0; i<4;i++){
 //     console.log(i)
@@ -103,11 +103,11 @@ console.log(typeof(dayName))
 //   console.log(i);
 // }
 
-let i = 12
-while(i>1){
-console.log(i)
-    i--;
-}
+// let i = 12
+// while(i>1){
+// console.log(i)
+//     i--;
+// }
 // for(let i = 12; i>1;i--){
 //     console.log(i)
 // }
@@ -116,9 +116,24 @@ console.log(i)
 //  lengthof  bigNum =  bigNum.length
  //find the digit of this number
 
-let count = 0;
-for(let i=1; i<=bigNum.length; i++){
-count++;
-}
-console.log("count",count)
+// let count = 0;
+// for(let i=1; i<=bigNum.length; i++){
+// count++;
+// }
+// console.log("count",count)
 
+  // sum of first 5 number 
+let sum= 0;
+for(let i=1; i<=5; i++){
+sum += i
+}
+console.log(sum)
+let num1 =0
+do{
+ console.log("num1",num1)
+ num1++
+}while(num1<2)
+
+  function Greetings(){
+    console.log("haii")
+}
