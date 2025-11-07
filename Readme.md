@@ -335,4 +335,58 @@ function features(student){
 }
 
 function -- function declaration
-function Expretion -- function assigned
+function Expretion -- function assigned to a variable
+
+ day-7
+6/11/2025
+
+Arrow function
+
+const school=() => {}
+
+Anounymous function
+
+function (){
+
+}
+
+Default Parameter
+
+function greet(name = "Renu"){
+    console.log(name)
+}
+
+Array
+let fruits =["Apple", "Orange"]
+1.fruits[index] 
+2. push -- add element to last
+3. pop -- remove element from last
+4. shift -- remove element from first
+4. unshift -- add element to first
+
+loops in array
+
+1. for  of loop
+2. for  in loop
+
+
+Create an array of 3 Vegetables and add one more using push().
+
+
+Remove the last element from an array using pop().
+
+
+Add one element at the start using unshift().
+
+
+Remove the first element using shift().
+
+
+Print all elements of an array using a for loop.
+
+
+Print all elements using for...of loop.
+Print all elements using for...in loop.
+
+
+itrating
