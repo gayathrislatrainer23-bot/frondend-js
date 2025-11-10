@@ -356,6 +356,8 @@ function greet(name = "Renu"){
     console.log(name)
 }
 
+ day-8
+7/11/2025
 Array
 let fruits =["Apple", "Orange"]
 1.fruits[index] 
@@ -390,3 +392,35 @@ Print all elements using for...in loop.
 
 
 itrating
+
+
+ day-9
+10/11/2025
+
+arr = [1,2,6,3,4]
+Array Methods
+1. map()
+
+doubledarr = arr.map((element,i)=> element*2)
+
+2. filter()
+let evenNum =arr.filter((element)=> elemet % 2 === 0 )
+
+1. name = []  filter any name
+2. num = [] add  +10 to all nums
+
+let name = "manu";
+
+toUpperCase()
+upperCasename = name.toUpperCase()
+<!-- MANU -->
+<!-- 
+let newName = name.charAt(0)
+-->
+2. find()
+let bigNum = arr.find(num => num >2)
+
+2. include()
+let fruits = ["Apple","Orange", "Mango"]
+fruits.includes("Orange")
+fruits.includes("Kivi")
