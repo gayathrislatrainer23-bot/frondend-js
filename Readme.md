@@ -219,7 +219,9 @@ a++ - post-increment
 ++a - pre-increment
 
 a= 5
-b= a++
+b= a
+b=5
+b=a++
 a =6
 b= 5
 
@@ -424,3 +426,11 @@ let bigNum = arr.find(num => num >2)
 let fruits = ["Apple","Orange", "Mango"]
 fruits.includes("Orange")
 fruits.includes("Kivi")
+
+b = b+2
+===
+b += 2
+
+ day-10
+12/11/2025
+Recursion : function callingits self
