@@ -117,4 +117,8 @@ function factorialRec(n){
     }
     return n * factorialRec(n-1)
 }
-console.log(factorialRec(5))
+
+console.log(factorialRec(3))
+
+// factorialRec(3) --> 3*factorialRec(3-1) --> 3*factorialRec(2) --> 3*2*factorialRec(1) --->3*2*1 =6
+

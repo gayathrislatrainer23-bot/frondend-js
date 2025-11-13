@@ -433,4 +433,38 @@ b += 2
 
  day-10
 12/11/2025
-Recursion : function callingits self
+Recursion : function calling its self
+
+function factorialRec(n){
+    if (n === 0 || n === 1){
+        return 1
+    }
+    return n * factorialRec(n-1)
+}
+
+console.log(factorialRec(3))
+
+// factorialRec(3) --> 3*factorialRec(3-1) --> 3*factorialRec(2) --> 3*2*factorialRec(1) --->3*2*1 =6
+
+Object and its methods
+
+{
+    "name": "Lakshaya",
+    "age": 18
+}
+
+{
+key :value,
+
+}
+value --> string, number,array,booloan,object
+nested object
+collageMate:{
+    students:{
+        name: "manu",
+        age: 23
+    }
+}
+<!-- [1,3,[435,34],2,"ghgti"] -->
+
+function inside object is called methods
