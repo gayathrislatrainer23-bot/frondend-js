@@ -468,3 +468,21 @@ collageMate:{
 <!-- [1,3,[435,34],2,"ghgti"] -->
 
 function inside object is called methods
+
+ day-12
+14/11/2025
+
+element acess
+   let element =document.getElementById("title") 
+  let info = document.getElementsByClassName("info")
+    let p = document.getElementsByTagName('p')
+document.querySelector("#title")-- id
+ document.querySelector(".info") --class
+ document.querySelectorAll(".info")
+
+ innerHtml --> add values in element (tags and text)
+ innerText  ---> add text
+
+
+ acess content in tag
+ textContent --> acess value
