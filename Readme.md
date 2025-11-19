@@ -486,3 +486,28 @@ document.querySelector("#title")-- id
 
  acess content in tag
  textContent --> acess value
+
+  day-13
+15/11/2025
+object tasks
+
+  day-14
+19/11/2025
+
+1. Synchronous Js
+
+--> js run one line at a time - top to bottom
+everything happen in order
+this called blocking execution
+
+2. Asynchronous js
+---> make js to do multiple  task at a time 
+---> non blocking the rest of code
+
+Asynchronous function
+1. setTimeout()
+1. setIntravel()
+1. fetch()
+
+asyc/await
+used to handle asynchronous functions

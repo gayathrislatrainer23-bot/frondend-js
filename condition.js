@@ -134,6 +134,7 @@ do{
  num1++
 }while(num1<2)
 
-  function Greetings(){
-    console.log("haii")
+  function Greetings(name ="manu"){
+    console.log("haii",name)
 }
+// default parameter
