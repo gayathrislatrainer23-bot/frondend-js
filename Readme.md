@@ -511,3 +511,20 @@ Asynchronous function
 
 asyc/await
 used to handle asynchronous functions
+
+
+  day-15
+21/11/2025
+
+callBack : function which is passed as an argument of another function
+
+
+
+
+
+
+
+
+
+
+

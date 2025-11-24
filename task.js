@@ -277,23 +277,146 @@ let count =0;
 //     }
 // },2000)
 // alert("loading")
-const id2 = setInterval(()=>{
-    count++;
-    alert("loading")
-if(count === 3){
-        clearInterval(id2)
-    }
-},2000)
-
- const getName =() =>{
-return username= "Balu"
- }
-const greeting = async function (){
-
-   let  name =  await getName ()
-   console.log(name)
+// const id2 = setInterval(()=>{
+//     count++;
+//     alert("loading")
+// if(count === 3){
+//         clearInterval(id2)
+//     }
+// },2000)
 
 
+//  const getName =() =>{
+// return username= "Balu"
+//  }
+// const greeting = async function (){
+
+//    let  name =  await getName ()
+//    console.log(name)
+
+
+// }
+
+// greeting()
+
+// Destructuring
+
+let  kid ={
+name: "Ramu",
+age :3,
+subject:{
+subName: "Maths"
+}
 }
 
-greeting()
+
+const findKidDetails = (child)=>{
+
+let {name, age, subject} = child
+ let {subName} =subject
+console.log(name ,"name")
+console.log(age)
+console.log(subject)
+console.log(subName)
+
+}
+// findKidDetails(kid)
+const numbers =[10,20,30]
+
+let[a,b,c] =numbers
+console.log(a)
+
+// spread and rest operator (...)
+
+let arr1 = [1,2,3]
+let arr2 = [11,12,13]
+// [[1,2,3],[11,12,13]]
+let  arr3 =[...arr1, ...arr2,23,44]
+// mergging arrays
+let arr4 = [...arr3]
+console.log(arr3)
+console.log(arr4)
+object1 = {
+    a: "",
+    b: ""
+}
+object2 = {
+    a1: "",
+    b1: ""
+}
+let  object3 ={...object1,...object2}
+console.log(object3)
+// spread  --> break the array /object into individual elements
+// rest  --->collect the remaining value
+
+const [first,...rest] =[1,345,456,67,345];
+// let reversedArr1 =arr1.reverse()
+// console.log(reversedArr1)
+
+Lastarr2 = arr2[arr2.length-1]
+let sum1 = 0;
+function sum(...nums){
+// console.log(nums)
+for(let num of nums ){
+
+    sum1 += num
+}
+return sum1
+}
+console.log(sum(1,2,3))
+
+// callBack
+
+function fetchData(callBack){
+
+    callBack("haii, how are you")
+}
+
+function message (msg){
+console.log(msg)
+}
+// message("hjgsdiyf")
+fetchData(message)
+
+// function download (){
+// console.log("downloading...")
+// }
+
+// function potoClick (callBack){
+//    callBack()
+
+// }
+// potoClick(download)
+
+function just(r){
+    console.log("just for fun",r)
+}
+ 
+ just(2)
+ just(21)
+ just(22)
+
+ let promise = new Promise((resolve,reject)=>{
+let sucess =false;
+if(sucess){
+    resolve("sucess")
+}else{
+    reject("not sucess")
+}
+ })
+promise.then((msg)=>console.log(msg))
+       .catch((err)=>console.log(err))
+
+
+
+// function download (){
+// console.log("downloading...")
+// }
+
+async function potoClick (){
+   await function callBack (){
+
+   }
+
+}
+potoClick(download)

@@ -4,7 +4,7 @@ let doubledArr = arr.map(num => num*2)
 console.log('arr', arr)
 console.log('doubledArr', doubledArr)
 
-let evenNum =arr.filter((num)=> num % 2 === 0 )
+let evenNum = arr.filter((num)=> num % 2 === 0 )
 
 console.log('evenNum', evenNum)
 
