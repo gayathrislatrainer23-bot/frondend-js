@@ -519,7 +519,37 @@ used to handle asynchronous functions
 callBack : function which is passed as an argument of another function
 
 
+24/11/2025
 
+event
+action happen in webpage by user
+userclick the button 
+scroll
+mouseover
+change
+
+html 
+onclick,onchange, ....
+
+AddEventLisener()
+
+
+ element.addEventListener('eventName', function(){
+    //codes
+ })
+
+<!-- click -->
+<!-- submit -->
+input
+keyup
+
+submit
+FORM ID = FORMsAUBMIT
+
+  day-16
+25/11/2025
+
+local storage
 
 
 
