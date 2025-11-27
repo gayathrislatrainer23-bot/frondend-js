@@ -552,7 +552,26 @@ FORM ID = FORMsAUBMIT
 local storage
 
 
+  day-16
+26/11/2025
 
+its a css framwork for fast responsive ui
+
+container
+
+27/11/2025
+
+padding --  p
+maragin -- m
+top --t
+b -- bottom
+s - start(l)
+e- end(right)
+x-left & right
+y- top & bottom
+<!-- 0-5 limit -->
+p-1
+p-2
 
 
 
