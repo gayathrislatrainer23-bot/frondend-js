@@ -573,7 +573,19 @@ y- top & bottom
 p-1
 p-2
 
+29/11/2025
 
+arr = [1,2,3,4,5]
+arr.splice(startIndex,deleteeCount,itemadd,)
+arr.splice(1,2)
+
+reducer
+
+arr.reduce((acu, curent)=>{
+
+})
+
+arrr.sort((a,b) => a-b)
 
 
 
